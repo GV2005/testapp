@@ -5,7 +5,7 @@ app=FastAPI()
 @app.get("/employees")
 def get_employees():
     return {
-        "name":"giri",
+        "name":"giri venkatesh",
         "age":21,
         "salary":45000
     }
